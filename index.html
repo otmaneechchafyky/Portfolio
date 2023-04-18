@@ -12,27 +12,37 @@
       <a href="#home" class="logo">
         <p>E</p>
       </a>
-      <nav>
-        <a href="#home"><span class="ol">01. </span>Home</a>
-        <a href="#about-me"><span class="ol">02. </span>About</a>
-        <a href="#work"><span class="ol">03. </span> Work</a>
-        <a href="#contact"><span class="ol">04. </span> Contact</a>
+      <nav class="navbar">
+        <a class="menu-link" href="#home"><span class="ol">01. </span>Home</a>
+        <a class="menu-link" href="#about-me"
+          ><span class="ol">02. </span>About</a
+        >
+        <a class="menu-link" href="#work"><span class="ol">03. </span> Work</a>
+        <a class="menu-link" href="#contact"
+          ><span class="ol">04. </span> Contact</a
+        >
       </nav>
+      <img
+        id="menu-icon"
+        src="./Assets/hamburger-md.svg"
+        alt="Hamburger for Menu"
+      />
     </header>
 
     <section class="home" id="home">
       <div class="who-am-i">
         <p class="presentation">Hello there, it's me.</p>
         <h1>Otmane Echchafyky.</h1>
-        <p class="presentation">
-          I'm a <span class="typing-effect"> Software developer.</span>
+        <p class="presentation2">
+          I am
+          <span class="typing-effect-span"> </span>
         </p>
         <p class="what-i-do">
           I have the keys to make your dreams come down from the clouds to your
           hands.
         </p>
         <div class="social-media">
-          <a href="https://github.com/OTMANE-ECHCHAFYKY" target="_blank">
+          <a href="https://github.com/echchafykyotmane" target="_blank">
             <svg
               width="35px"
               height="35px"
@@ -124,136 +134,135 @@
           </a>
           <div class="vertical-line"></div>
         </div>
-        <button type="button" class="btn">Check My Resume</button>
+        <a href="./Assets/oech.6c58303d.pdf" target="_blank"
+          ><button type="button" class="btn">Check My Resume</button></a
+        >
       </div>
       <div class="avatar-container">
-        <img src="./Assets/my-avatar.png" alt="Avatar" />
+        <img class="avatar" src="./Assets/my-avatar.png" alt="Avatar" />
       </div>
     </section>
 
     <section id="about-me" class="about-me-container">
+      <div class="about-title">
+        <div class="title-line"></div>
+        <h2><span class="section-nbr">02.</span>About me</h2>
+        <div class="title-line"></div>
+      </div>
       <div class="about-me">
-        <div class="section-title about-title">
-          <h2><span class="section-nbr">02.</span> About me</h2>
-          <div class="title-line about-line"></div>
-        </div>
-        <div class="functions">
-          <ul class="function-container">
-            <li class="function1" id="function1" onclick="showFunction1()">
-              whoAmI ( )
-            </li>
-            <li class="function2" id="function2" onclick="showFunction2()">
-              education ( )
-            </li>
-            <li class="function3" id="function3" onclick="showFunction3()">
-              Certificates ( )
-            </li>
-            <li class="function4" id="function4" onclick="showFunction4()">
-              skills ( )
-            </li>
-          </ul>
+        <ul class="function-container">
+          <li class="function1 func" id="function1" onclick="showFunction1()">
+            whoAmI ()
+          </li>
+          <li class="function2 func" id="function2" onclick="showFunction2()">
+            education ()
+          </li>
+          <li class="function3 func" id="function3" onclick="showFunction3()">
+            Certificates ()
+          </li>
+          <li class="function4 func" id="function4" onclick="showFunction4()">
+            skills ()
+          </li>
+        </ul>
 
-          <div class="function-info-container">
-            <p class="function-info info1" id="info1">
-              <span class="acolade">{</span><br />
-              <span class="variable">const</span>
-              <span class="identifiant">name</span> =
-              <span class="content-string">'Otmane Echchafyky'</span>;<br />
-              <span class="variable">const</span>
-              <span class="identifiant">email</span> =<span
-                class="content-string"
-                >'otmaneechchafyky5@gmail.com'</span
-              >;<br />
-              <span class="variable">let</span>
-              <span class="identifiant">ageInSeconds</span> =
-              <span class="content-nbr">788400000</span>;<br />
-              <span class="comment"
-                >/* I am passionate about problem solving and Front End web
-                developement. <br />
-                I don't Like Coffee :( */</span
-              ><br />
-              <span class="acolade">}</span>
-            </p>
+        <div class="function-info-container">
+          <p class="function-info info1" id="info1">
+            <span class="acolade">{</span><br />
+            <span class="variable">const</span>
+            <span class="identifiant">name</span> =
+            <span class="content-string">'Otmane Echchafyky'</span>;<br />
+            <span class="variable">const</span>
+            <span class="identifiant">email</span> =<span class="content-string"
+              >'otmaneechchafyky5@gmail.com'</span
+            >;<br />
+            <span class="variable">let</span>
+            <span class="identifiant">ageInSeconds</span> =
+            <span class="content-nbr">788400000</span>;<br />
+            <span class="comment"
+              >/* I am passionate about problem solving and Front End web
+              developement. <br />
+              I don't Like Coffee :( */</span
+            ><br />
+            <span class="acolade">}</span>
+          </p>
 
-            <p class="function-info info2" id="info2">
-              <span class="acolade">{</span><br />
-              <span class="comment"
-                >/* Firstly, it is not about degrees.<br />
-                It is about your skills, your creativity and yourself :)
-                */</span
-              ><br />
-              <span class="variable">this</span>.<span class="identifiant"
-                >highSchool</span
-              >
-              = <span class="content-nbr">true</span>;<br />
-              <span class="variable">this</span>.<span class="identifiant"
-                >bachelor</span
-              >
-              = <span class="content-nbr">true</span>;<br />
-              <span class="variable">this</span>.<span class="identifiant"
-                >onload</span
-              >
-              = <span class="content-string">'master'</span>;<br />
-              <span class="acolade">}</span>
-            </p>
+          <p class="function-info info2" id="info2">
+            <span class="acolade">{</span><br />
+            <span class="comment"
+              >/* Firstly, it is not about degrees.<br />
+              It is about your skills, your creativity and yourself :) */</span
+            ><br />
+            <span class="variable">this</span>.<span class="identifiant"
+              >highSchool</span
+            >
+            = <span class="content-nbr">true</span>;<br />
+            <span class="variable">this</span>.<span class="identifiant"
+              >bachelor</span
+            >
+            = <span class="content-nbr">true</span>;<br />
+            <span class="variable">this</span>.<span class="identifiant"
+              >onload</span
+            >
+            = <span class="content-string">'master'</span>;<br />
+            <span class="acolade">}</span>
+          </p>
 
-            <p class="function-info info3" id="info3">
-              <span class="acolade">{</span><br />
-              <span class="variable">let</span>
-              <span class="identifiant">responsiveWebDesign</span> =
-              <a
-                href="https://www.freecodecamp.org/certification/otmane97/responsive-web-design"
-                class="content-string"
-                >'Check certificate'</a
-              >;<br />
-              <span class="variable">let</span>
-              <span class="identifiant">dataStructures</span>
-              =
-              <a
-                href="https://www.freecodecamp.org/certification/otmane97/javascript-algorithms-and-data-structures"
-                class="content-string"
-                >'Check certificate'</a
-              >;<br />
-              <span class="variable">let</span>
-              <span class="identifiant">microverse</span> =
-              <span class="content-nbr">'Coming soon'</span>;<br />
-              <span class="comment"
-                >// I am so hungry for more and more :) ..</span
-              ><br />
-              <span class="acolade">}</span><br />
-            </p>
+          <p class="function-info info3" id="info3">
+            <span class="acolade">{</span><br />
+            <span class="variable">let</span>
+            <span class="identifiant">responsiveWebDesign</span> =
+            <a
+              href="https://www.freecodecamp.org/certification/otmane97/responsive-web-design"
+              class="content-string"
+              >'Check certificate'</a
+            >;<br />
+            <span class="variable">let</span>
+            <span class="identifiant">dataStructures</span>
+            =
+            <a
+              href="https://www.freecodecamp.org/certification/otmane97/javascript-algorithms-and-data-structures"
+              class="content-string"
+              >'Check certificate'</a
+            >;<br />
+            <span class="variable">let</span>
+            <span class="identifiant">microverse</span> =
+            <span class="content-nbr">'Coming soon'</span>;<br />
+            <span class="comment"
+              >// I am so hungry for more and more :) ..</span
+            ><br />
+            <span class="acolade">}</span><br />
+          </p>
 
-            <p class="function-info info4" id="info4">
-              <span class="acolade">{</span><br />
-              <span class="comment"
-                >/* Every day that goes by without learning a new skill, new
-                friend or new information is a meaningless day ;) */</span
-              ><br />
-              <span class="variable">const</span>
-              <span class="identifiant">myKnowledge</span> =
-              <span class="content-nbr">[</span
-              ><span class="content-string"
-                >'html', 'Css', 'Bootstrap', 'Sass', 'Javascript', 'Git',
-                'Github'</span
-              ><span class="content-nbr">]</span>
-              <br />
-              <span class="variable">let</span>
-              <span class="identifiant">learning</span> =
-              <span class="content-nbr">[</span
-              ><span class="content-string"
-                >'React', 'Redux', 'Ruby', 'Ruby On rails', 'Agile', </span
-              ><span class="typing-effect te-array"> </span>
-              <span class="content-nbr"> ]</span><br />
-              <span class="acolade">}</span>
-            </p>
-          </div>
+          <p class="function-info info4" id="info4">
+            <span class="acolade">{</span><br />
+            <span class="comment"
+              >/* Every day that goes by without learning a new skill, new
+              friend or new information is a meaningless day ;) */</span
+            ><br />
+            <span class="variable">const</span>
+            <span class="identifiant">myKnowledge</span> =
+            <span class="content-nbr">[</span
+            ><span class="content-string"
+              >'html', 'Css', 'Bootstrap', 'Sass', 'Javascript', 'Git',
+              'Github'</span
+            ><span class="content-nbr">];</span>
+            <br />
+            <span class="variable">let</span>
+            <span class="identifiant">learning</span> =
+            <span class="content-nbr">[</span
+            ><span class="content-string"
+              >'React', 'Ruby On rails', 'Redux', 'Ruby','Agile', </span
+            ><span class="typing-effect-span te-array"> </span>
+            <span class="content-nbr"> ];</span><br />
+            <span class="acolade">}</span>
+          </p>
         </div>
       </div>
     </section>
 
     <section class="work" id="work">
       <div class="section-title">
-        <h2><span class="section-nbr">03.</span> Some of my Work</h2>
+        <h2><span class="section-nbr">03.</span> My Work</h2>
         <div class="title-line"></div>
       </div>
       <div class="card card-odd">
@@ -341,9 +350,9 @@
     </section>
 
     <section class="contact" id="contact">
-      <div class="section-title contact-title">
+      <div class="contact-title">
         <div class="title-line"></div>
-        <h2><span class="section-nbr">04.</span>Let's Get in touch</h2>
+        <h2><span class="section-nbr">04.</span>Contact me!</h2>
         <div class="title-line"></div>
       </div>
       <div class="form-container">
@@ -370,9 +379,6 @@
               fill="#222222"
             />
           </svg>
-          <!-- <a href="#home" class="logo">
-            
-          </a> -->
           <p class="cad">
             I'm always interested in hearing about new projects, Job offers or
             any suggestions. so if you'd like to chat please get in.
@@ -380,6 +386,7 @@
         </div>
 
         <form
+          id="my-form"
           action="https://formsubmit.co/otmaneechchafyky5@gmail.com"
           method="POST"
         >
@@ -397,7 +404,13 @@
               required
             />
           </div>
-          <input type="email" placeholder="Email" name="email" required />
+          <input
+            type="email"
+            class="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
           <textarea
             name="contact-message"
             id="contact-message"
@@ -407,6 +420,7 @@
             name="your message"
             required
           ></textarea>
+          <div class="error"></div>
           <button type="submit" class="btn">Send Message</button>
         </form>
       </div>
@@ -436,6 +450,7 @@
         </svg>
       </a>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <script src="./index.js"></script>
   </body>
   <!-- <a href="#home" class="logo">
