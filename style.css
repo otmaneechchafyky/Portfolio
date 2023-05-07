@@ -39,6 +39,9 @@ header {
   padding: 0 5%;
   background-color: #283040;
   font-family: 'Inter', sans-serif;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.24);
 }
 
 /* Cursor */
@@ -84,6 +87,7 @@ header nav {
   align-self: self-end;
   display: flex;
   justify-content: space-between;
+  padding: 20px 0;
 }
 
 .ol {
@@ -169,7 +173,7 @@ header nav a:hover {
 /* Home */
 
 .home {
-  margin-top: 90px;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -473,7 +477,7 @@ header nav a:hover {
 .card img {
   width: 150%;
   height: 400px;
-  filter: grayscale(85%);
+  filter: grayscale(75%);
   filter: blur(60%);
   border-radius: 10px 0 0 10px;
   cursor: pointer;
@@ -664,6 +668,10 @@ header nav a:hover {
   align-items: center;
   gap: 100px;
   margin-top: 150px;
+}
+
+.transAll {
+  animation: transAll .2s ease-in;
 }
 
 .contact-title {
@@ -949,6 +957,7 @@ footer {
 .about-me-container .about-me {
   width: 85%;
   display: flex;
+  align-items: center;
   gap: 3%;
 }
 

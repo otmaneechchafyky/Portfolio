@@ -165,3 +165,7 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+document.querySelector('.contact').scroll = () => {
+  document.querySelector('.contact').classList.add('transAll')
+};
