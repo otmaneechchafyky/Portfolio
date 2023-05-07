@@ -145,9 +145,9 @@ Install this project with:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/otmaneechchafyky)
-- Twitter: [@twitterhandle](https://twitter.com/EchchafykyO)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/otmane-echchafyky-125801248/)
+- GitHub: [@otmaneechchafyky](https://github.com/otmaneechchafyky)
+- Twitter: [@EchchafykyO](https://twitter.com/EchchafykyO)
+- LinkedIn: [otmaneechchafyky](https://www.linkedin.com/in/otmane-echchafyky-125801248/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
