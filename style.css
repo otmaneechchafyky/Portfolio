@@ -651,6 +651,7 @@ header nav a:hover {
     text-align: left;
     justify-content: left;
     width: 100%;
+    padding: 10px;
   }
 
   .card .card-description {
