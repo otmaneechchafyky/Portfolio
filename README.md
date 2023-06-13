@@ -19,18 +19,12 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="./Assets/logoE.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>My Portfolio</b></h3>
+  <h3><b>Welcome to my Portfolio</b></h3>
 
 </div>
 
@@ -55,7 +49,6 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -189,17 +182,6 @@ I would like to thank @YasiOnFire.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[How can you create the bubble?]**
-
-  - [Using Border redius with to values, and animate it using translate]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
