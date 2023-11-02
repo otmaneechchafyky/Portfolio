@@ -475,7 +475,7 @@ header nav a:hover {
 }
 
 .card img {
-  width: 150%;
+  width: 55%;
   height: 400px;
   filter: grayscale(75%);
   filter: blur(60%);
@@ -992,6 +992,8 @@ footer {
 
 .about-me-container .about-me .function-info-container {
   width: 70%;
+  overflow-y: scroll;
+  background-color: #3b4455;
 }
 
 .about-me-container .about-me .function-info-container p .variable {
