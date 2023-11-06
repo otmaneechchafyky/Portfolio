@@ -46,7 +46,7 @@ header {
 
 /* Cursor */
 .typed-cursor {
-  color: #09d;
+  color: rgb(52 211 153);
 }
 
 #menu-icon {
@@ -60,7 +60,7 @@ header a {
 
 .logo p {
   font-family: 'Space Mono', 'Crete Round', 'Inter', sans-serif;
-  color: #09d;
+  color: rgb(52 211 153);
   font-size: 1.5rem;
 }
 
@@ -71,7 +71,7 @@ header a {
   align-items: center;
   justify-content: center;
   border-radius: 65% 48% 38% 36% / 49% 25% 54% 41%;
-  border: 3px solid #09d;
+  border: 3px solid rgb(52 211 153);
 }
 
 header .logo:hover p {
@@ -79,7 +79,7 @@ header .logo:hover p {
 }
 
 header .logo:hover {
-  background-color: rgb(0, 155, 221);
+  background-color: rgb(52 211 153);
 }
 
 header nav {
@@ -91,7 +91,7 @@ header nav {
 }
 
 .ol {
-  color: #09d;
+  color: rgb(52 211 153);
   margin-right: 5px;
 }
 
@@ -110,11 +110,11 @@ header nav a {
 }
 
 footer a:hover {
-  color: #0bb2fa;
+  color: rgb(52 211 153);
 }
 
 header nav a:hover {
-  color: #09d;
+  color: rgb(52 211 153);
   transition-duration: 0.15s;
 }
 
@@ -159,7 +159,7 @@ header nav a:hover {
 
   header nav a {
     font-size: 2rem;
-    border-bottom: 1px solid #09d;
+    border-bottom: 1px solid rgb(52 211 153);
     width: 100%;
     padding: 5% 25%;
   }
@@ -206,7 +206,7 @@ header nav a:hover {
 .typing-effect-span {
   font-size: 1.75rem;
   font-family: 'Space Mono', sans-serif;
-  color: #09d;
+  color: rgb(52 211 153);
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
@@ -239,11 +239,11 @@ header nav a:hover {
 .home .who-am-i .social-media .vertical-line {
   width: 2px;
   height: 300px;
-  background-color: #009bdd69;
+  background-color: rgb(52 211 153);
 }
 
 .home .who-am-i .social-media svg {
-  border: 1px solid #09d;
+  border: 1px solid rgb(52 211 153);
   padding: 8px;
   border-radius: 10px;
   transition-duration: 0.3s;
@@ -251,8 +251,8 @@ header nav a:hover {
 
 .home .who-am-i .social-media svg:hover {
   fill: #283040;
-  background-color: #09d;
-  box-shadow: 0 0 2em #09d;
+  background-color: rgb(52 211 153);
+  box-shadow: 0 0 2em rgb(52 211 153);
   transform: translateY(-7px);
 }
 
@@ -288,10 +288,10 @@ header nav a:hover {
 
 .avatar-container img {
   width: 70%;
-  background-color: #09d;
+  background-color: rgb(52 211 153);
   border: 2px solid #fff;
   border-radius: 100% 63% 83% 100% / 54% 85% 85% 86%;
-  box-shadow: 0 0 4em #09d;
+  box-shadow: 0 0 1.5em rgb(52 211 153);
   animation: animate-img ease 5s infinite;
 }
 
@@ -459,14 +459,14 @@ header nav a:hover {
 
 .section-title h2 .section-nbr {
   font-family: 'Space Mono', 'Inter', sans-serif;
-  color: #09d;
+  color: rgb(52 211 153);
   margin-right: 5px;
 }
 
 .section-title .title-line {
   width: 70%;
   height: 2px;
-  background-color: #009bdd79;
+  background-color: rgb(52 211 153);
 }
 
 .card {
@@ -482,16 +482,16 @@ header nav a:hover {
   border-radius: 10px 0 0 10px;
   cursor: pointer;
   box-shadow: 0 3px 8px 2px rgba(14, 17, 23, 0.88);
-  border-left: 5px solid #009bdd75;
-  border-top: 5px solid #009bdd75;
-  border-bottom: 5px solid #009bdd75;
+  border-left: 5px solid rgb(16 185 129);
+  border-top: 5px solid rgb(16 185 129);
+  border-bottom: 5px solid rgb(16 185 129);
   transition: 0.5s ease-in-out;
 }
 
 .card .even-imag {
-  border-right: 5px solid #009bdd75;
-  border-top: 5px solid #009bdd75;
-  border-bottom: 5px solid #009bdd75;
+  border-right: 5px solid rgb(16 185 129);
+  border-top: 5px solid rgb(16 185 129);
+  border-bottom: 5px solid rgb(16 185 129);
   border-left: 0;
   border-radius: 0 10px 10px 0;
 }
@@ -505,7 +505,7 @@ header nav a:hover {
 .card img:hover {
   filter: grayscale(0%);
   filter: blur(0%);
-  border-left: 5px solid #009bdd75;
+  border-left: 5px solid rgb(16 185 129);
 }
 
 .card .card-description-odd {
@@ -530,7 +530,7 @@ header nav a:hover {
 }
 
 .card .card-description .Featured-Project {
-  color: #09d;
+  color: rgb(52 211 153);
   font-family: 'Space Mono', 'Inter', sans-serif;
   font-size: 1rem;
 }
@@ -588,7 +588,7 @@ header nav a:hover {
 .card .card-description .show .demo-code-link {
   width: 50%;
   height: 40px;
-  border: 2px solid #09d;
+  border: 2px solid rgb(52 211 153);
   background: transparent;
   border-radius: 10px;
   transition-duration: 0.2s;
@@ -600,7 +600,7 @@ header nav a:hover {
 .card .card-description .show .demo-code-link .demo-code {
   width: 100%;
   height: 40px;
-  color: #09d;
+  color: rgb(52 211 153);
   font-size: 1rem;
   font-family: 'Space Mono', 'Inter', sans-serif;
   font-weight: 600;
@@ -611,9 +611,9 @@ header nav a:hover {
 }
 
 .card .card-description .show .demo-code-link .demo-code:hover {
-  background-color: #09d;
+  background-color: rgb(52 211 153);
   color: #283040;
-  box-shadow: 0 0 2em #09d;
+  box-shadow: 0 0 2em rgb(52 211 153);
 }
 
 @media (max-width: 767px) {
@@ -642,7 +642,7 @@ header nav a:hover {
   .card img {
     width: 100%;
     height: 200px;
-    border: 5px solid #009bdd75;
+    border: 5px solid rgb(16 185 129);
     border-radius: 10px;
     transition: 0.5s ease-in-out;
   }
@@ -693,14 +693,14 @@ header nav a:hover {
 
 .contact-title h2 .section-nbr {
   font-family: 'Space Mono', 'Inter', sans-serif;
-  color: #09d;
+  color: rgb(52 211 153);
   margin-right: 5px;
 }
 
 .contact-title .title-line {
   width: 30%;
   height: 2px;
-  background-color: #009bdd79;
+  background-color: rgb(52 211 153);
 }
 
 .contact .form-container {
@@ -728,7 +728,7 @@ header nav a:hover {
 .contact .form-container .para-container .electric-line {
   height: 30%;
   width: 3px;
-  background-color: #09d;
+  background-color: rgb(52 211 153);
   position: absolute;
   top: 0;
 }
@@ -762,7 +762,7 @@ header nav a:hover {
 .contact .form-container .para-container .logo {
   width: 60px;
   height: 50px;
-  background-color: #09d;
+  background-color: rgb(52 211 153);
   border-radius: 50%;
   border: 3px solid #ffffff86;
   rotate: 180deg;
@@ -770,12 +770,12 @@ header nav a:hover {
 }
 
 .contact .form-container .para-container:hover .logo {
-  box-shadow: 0 0 5em #09d;
-  border: 3px solid #09d;
+  box-shadow: 0 0 5em rgb(52 211 153);
+  border: 3px solid rgb(52 211 153);
 }
 
 .contact .form-container .para-container:hover {
-  border-color: #09d;
+  border-color: rgb(52 211 153);
   filter: grayscale(0%);
 }
 
@@ -803,7 +803,7 @@ header nav a:hover {
 }
 
 .contact .form-container form input:hover {
-  border-color: #09d;
+  border-color: rgb(52 211 153);
 }
 
 .contact .form-container form textarea {
@@ -816,7 +816,7 @@ header nav a:hover {
 }
 
 .contact .form-container form textarea:hover {
-  border-color: #09d;
+  border-color: rgb(52 211 153);
 }
 
 ::placeholder {
@@ -944,7 +944,7 @@ footer {
 
 .about-title h2 .section-nbr {
   font-family: 'Space Mono', 'Inter', sans-serif;
-  color: #09d;
+  color: rgb(52 211 153);
   margin-right: 5px;
   width: 20%;
 }
@@ -952,7 +952,7 @@ footer {
 .about-title .title-line {
   width: 33%;
   height: 2px;
-  background-color: #009bdd79;
+  background-color: rgb(52 211 153);
 }
 
 .about-me-container .about-me {
@@ -986,7 +986,7 @@ footer {
 }
 
 .about-me-container .about-me .function-container .function1 {
-  color: #09d;
+  color: rgb(52 211 153);
   background-color: #3b4455;
 }
 
@@ -1001,7 +1001,7 @@ footer {
 }
 
 .about-me-container .about-me .function-info-container p .identifiant {
-  color: #24e394;
+  color: rgb(6 182 212);
 }
 
 .about-me-container .about-me .function-info-container p .content-nbr {
