@@ -21,11 +21,9 @@ REQUIRED SECTIONS:
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./Assets/logoE.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Welcome to my Portfolio</b></h3>
-
+  <hr/>
+  <img src="./Assets/logoE.png" alt="logo" width="140"  height="auto" />
 </div>
 
 <!-- TABLE OF CONTENTS -->
