@@ -234,8 +234,14 @@ header nav a:hover {
 }
 
 .home .who-am-i .what-i-do {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.562);
   width: 80%;
+  margin-left: 2rem;
+}
+
+.home .who-am-i .what-i-do span {
+  color: white;
 }
 
 .home .who-am-i .social-media {
@@ -392,7 +398,12 @@ header nav a:hover {
 
   .home .who-am-i .what-i-do {
     text-align: center;
-    width: 100%;
+    width: 170%;
+    margin-right: 1.5rem;
+  }
+
+  .home .who-am-i svg {
+    display: none;
   }
 
   .avatar {
