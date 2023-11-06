@@ -19,6 +19,19 @@ body {
   background-color: #283040;
 }
 
+/* Define the styles for the scroll bar */
+body::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(52 211 153); /* Set the color of the scroll thumb */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #4f5563; /* Set the color of the scrollbar track */
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -1017,6 +1030,19 @@ footer {
   width: 70%;
   overflow-y: scroll;
   background-color: #3b4455;
+}
+
+/* Define the styles for the scroll bar */
+.about-me-container .about-me .function-info-container::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.about-me-container .about-me .function-info-container::-webkit-scrollbar-thumb {
+  background-color: rgba(52, 211, 153, 0.63); /* Set the color of the scroll thumb */
+}
+
+.about-me-container .about-me .function-info-container::-webkit-scrollbar-track {
+  background-color: #4d5461; /* Set the color of the scrollbar track */
 }
 
 .about-me-container .about-me .function-info-container p .variable {
