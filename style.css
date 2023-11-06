@@ -647,15 +647,30 @@ header nav a:hover {
     transition: 0.5s ease-in-out;
   }
 
+  .card .even-imag:hover {
+    border: 5px solid rgb(16 185 129);
+  }
+
+  .card .even-imag {
+    border-left: 5px solid rgb(16 185 129);
+    border-radius: 10px;
+  }
+
   .card .card-description .project-description {
     text-align: left;
     justify-content: left;
+    height: auto;
     width: 100%;
-    padding: 10px;
   }
 
   .card .card-description {
     align-items: center;
+  }
+
+  .card .card-description .tech-used,
+  .tech-used-even {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
@@ -976,18 +991,26 @@ footer {
 
 .about-me-container .about-me .function-container li {
   font-family: 'Roboto Mono', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
-  padding: 1.25rem;
+  padding: 2rem;
   font-weight: 600;
   cursor: pointer;
   border-left: 2px solid #3b4455;
+  border-top: 2px solid #3b4455;
+  background-image: linear-gradient(to right, #3b4455, transparent);
+}
+
+.about-me-container .about-me .function-container li:hover {
+  background-image: linear-gradient(to right, #3b4455 , #3b4455);
+  transition-duration: .4s;
+  color: rgb(52 211 153);
 }
 
 .about-me-container .about-me .function-container .function1 {
   color: rgb(52 211 153);
-  background-color: #3b4455;
+  background-image: linear-gradient(to right, #3b4455 , transparent);
 }
 
 .about-me-container .about-me .function-info-container {
