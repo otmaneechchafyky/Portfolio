@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="./assets/logoE.png" alt="logo" width="140"  height="auto" />
   <br/>
 
