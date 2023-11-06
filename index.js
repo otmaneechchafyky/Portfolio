@@ -18,14 +18,6 @@ const function4 = document.getElementById("function4");
 const func = document.querySelectorAll('.func');
 const funcInfo = document.querySelectorAll('.function-info');
 
-
-// for(let i = 1; i <= func.length; i++) {
-//   func[i].addEventListener('click', () => {
-//     funcInfo[i].classList.add(`#info${i}-active`);
-//     func[i].classList.add(`#function${i}-active`);
-//   })
-// }
-
 function showFunction1() {
   info2.style.display = "none";
   info3.style.display = "none";
@@ -37,15 +29,10 @@ function showFunction1() {
   function3.style.backgroundColor = "transparent";
   function4.style.backgroundColor = "transparent";
 
-  function1.style.color = "#0099dd";
+  function1.style.color = "rgb(52 211 153)";
   function2.style.color = "#fff";
   function3.style.color = "#fff";
   function4.style.color = "#fff";
-
-  // function1.style.borderLeft = "2px solid #0099dd";
-  // function2.style.borderLeft = "0";
-  // function3.style.borderLeft = "0";
-  // function4.style.borderLeft = "0";
 }
 
 function showFunction2() {
@@ -59,15 +46,10 @@ function showFunction2() {
   function3.style.backgroundColor = "transparent";
   function4.style.backgroundColor = "transparent";
 
-  function2.style.color = "#0099dd";
+  function2.style.color = "rgb(52 211 153)";
   function1.style.color = "#fff";
   function3.style.color = "#fff";
   function4.style.color = "#fff";
-
-  // function2.style.borderLeft = "2px solid #0099dd";
-  // function1.style.borderLeft = "0";
-  // function3.style.borderLeft = "0";
-  // function4.style.borderLeft = "0";
 }
 
 function showFunction3() {
@@ -81,15 +63,10 @@ function showFunction3() {
   function1.style.backgroundColor = "transparent";
   function4.style.backgroundColor = "transparent";
 
-  function3.style.color = "#0099dd";
+  function3.style.color = "rgb(52 211 153)";
   function2.style.color = "#fff";
   function1.style.color = "#fff";
   function4.style.color = "#fff";
-
-  // function3.style.borderLeft = "2px solid #0099dd";
-  // function2.style.borderLeft = "0";
-  // function1.style.borderLeft = "0";
-  // function4.style.borderLeft = "0";
 }
 
 function showFunction4() {
@@ -103,15 +80,10 @@ function showFunction4() {
   function3.style.backgroundColor = "transparent";
   function1.style.backgroundColor = "transparent";
 
-  function4.style.color = "#0099dd";
+  function4.style.color = "rgb(52 211 153)";
   function2.style.color = "#fff";
   function3.style.color = "#fff";
   function1.style.color = "#fff";
-
-  // function4.style.borderLeft = "2px solid #0099dd";
-  // function2.style.borderLeft = "0";
-  // function3.style.borderLeft = "0";
-  // function1.style.borderLeft = "0";
 }
 
 // add menu navbar mobile version
