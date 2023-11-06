@@ -1,29 +1,11 @@
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h3><b>Welcome to my Portfolio</b></h3>
-  <hr/>
-  <img src="./Assets/logoE.png" alt="logo" width="140"  height="auto" />
+  <img src="./assets/pf-logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Welcome to my project</b></h3>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
